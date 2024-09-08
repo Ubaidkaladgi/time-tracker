@@ -1,16 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>training.taylor.time-tracker</groupId>
         <artifactId>time-tracker-parent</artifactId>
         <version>0.6.0-SNAPSHOT</version>
         <relativePath>../path-to-parent-pom</relativePath> <!-- Adjust this path -->
     </parent>
+
     <artifactId>time-tracker-web</artifactId>
     <version>0.6.0-SNAPSHOT</version>
-    <!-- Other configurations -->
-</project>
+
+    <!-- Add project description and other metadata within the project element -->
     <description>
         This is a simple Maven / Java web project.
     </description>
